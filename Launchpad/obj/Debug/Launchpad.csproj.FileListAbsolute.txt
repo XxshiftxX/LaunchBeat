@@ -1,0 +1,15 @@
+D:\dev\Launchpad\Launchpad\bin\Debug\Launchpad.exe.config
+D:\dev\Launchpad\Launchpad\bin\Debug\Launchpad.exe
+D:\dev\Launchpad\Launchpad\bin\Debug\Launchpad.pdb
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.csprojResolveAssemblyReference.cache
+D:\dev\Launchpad\Launchpad\obj\Debug\MainWindow.g.cs
+D:\dev\Launchpad\Launchpad\obj\Debug\App.g.cs
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad_MarkupCompile.cache
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad_MarkupCompile.lref
+D:\dev\Launchpad\Launchpad\obj\Debug\MainWindow.baml
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.g.resources
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.Properties.Resources.resources
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.csproj.GenerateResource.Cache
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.csproj.CoreCompileInputs.cache
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.exe
+D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.pdb
