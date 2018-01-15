@@ -13,3 +13,7 @@ D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.csproj.GenerateResource.Cache
 D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.csproj.CoreCompileInputs.cache
 D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.exe
 D:\dev\Launchpad\Launchpad\obj\Debug\Launchpad.pdb
+D:\dev\Launchpad\Launchpad\bin\Debug\CSCore.dll
+D:\dev\Launchpad\Launchpad\bin\Debug\Midi.dll
+D:\dev\Launchpad\Launchpad\bin\Debug\CSCore.xml
+D:\dev\Launchpad\Launchpad\bin\Debug\Midi.xml

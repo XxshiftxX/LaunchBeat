@@ -13,19 +13,30 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using Midi;
 
 namespace Launchpad
 {
     public partial class MainWindow : Window
     {
+        Queue<HitObject> hitObjects = new Queue<HitObject>();
+
+        HitObject WaitingObject;
+
+        DateTime startPoint;
+
         DispatcherTimer ProcessTimer = new DispatcherTimer();
         DispatcherTimer DrawTimer = new DispatcherTimer();
 
         public MainWindow()
         {
+            ProcessTimer.Tick += ProcessUpdate;
+            ProcessTimer.Interval = TimeSpan.FromMilliseconds(10);
+
             InitializeComponent();
+
+            InputDevicesListbox.ItemsSource = Midi.InputDevice.InstalledDevices;
+            OutputDevicesListbox.ItemsSource = OutputDevice.InstalledDevices;
         }
-
-
     }
 }
