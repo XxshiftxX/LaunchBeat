@@ -30,5 +30,15 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+
+        <ListBox x:Name="Notes" Grid.Row="1" Margin="5">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="time"/>
     </Grid>
 </Window>
