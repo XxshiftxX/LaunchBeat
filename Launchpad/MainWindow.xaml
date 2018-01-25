@@ -39,6 +39,6 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="time"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="ConsoleBlock"/>
     </Grid>
 </Window>

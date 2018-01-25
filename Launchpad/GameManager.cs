@@ -9,8 +9,8 @@ namespace Launchpad
 {
     public class GameManager
     {
-        private readonly InputDevice inputDevice;
-        private readonly OutputDevice outputDevice;
+        public readonly InputDevice inputDevice;
+        public readonly OutputDevice outputDevice;
 
         public GameManager(InputDevice inputDevice, OutputDevice outputDevice)
         {
