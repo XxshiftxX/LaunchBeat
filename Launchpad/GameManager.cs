@@ -17,7 +17,5 @@ namespace Launchpad
             this.inputDevice = inputDevice;
             this.outputDevice = outputDevice;
         }
-
-
     }
 }
