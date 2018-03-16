@@ -4,25 +4,43 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
 {
-    enum ee
+    public class obj
     {
-        a,b,c
+        public int a;
+        public int b;
+        public obj(int i, int j)
+        {
+            a = i;
+            b = j;
+        }
     }
+    public struct obj2
+    {
+        public int a;
+        public int b;
+        public obj2(int i, int j)
+        {
+            a = i;
+            b = j;
+        }
+    }
+
     [TestClass]
     public class UnitTest1
     {
-        ee[] arr = new ee[3] { ee.a, ee.b, ee.c };
-        Dictionary<ee, int> dic = new Dictionary<ee, int>() { { ee.a, 0 }, { ee.b, 1 }, { ee.c, 2 } };
-
+        obj a = new obj(10, 10);
+        obj2 b = new obj2(10, 10);
         [TestMethod]
         public void TestMethod1()
         {
-            Console.WriteLine((int)ee.b);
+            Console.WriteLine(a.a);
+            Console.WriteLine(a.b);
         }
         [TestMethod]
         public void TestMethod2()
         {
-            Console.WriteLine(dic[ee.b]);
+            Console.WriteLine(b.a);
+            Console.WriteLine(b.b);
         }
     }
 }
